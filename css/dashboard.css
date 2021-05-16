@@ -174,12 +174,13 @@ table{
 .container{
   padding-top: 30px;
   width: 95%;
-  height: 850px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   border-radius: 13px;
   user-select: none;
+  overflow: hidden;
 }
 label{
   font-size: 20px;
