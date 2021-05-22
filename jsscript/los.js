@@ -97,43 +97,48 @@ var players =["MAREK.M",
           var table = document.getElementById("myTable");
           var sum = firstplayerpick.length+secplayerpick.length;
 
-          for (var i = 0; i < sum/2; i++) {
+          var counter = 1;
+          var n = 0;
+            function tableDisplay(){
+
+                  var row = table.insertRow(0);
+                  var cell2 = row.insertCell(0);
+                  var cell3 = row.insertCell(0);
+                  var cell1 = row.insertCell(1);
+                  if(firstplayerpick.length==0){
+                    cell1.innerHTML = random2.next().value;
+                    if(secplayerpick.length==0){
+                      cell2.innerHTML = "PARA NR.1";
+                    }else{
+
+                      cell2.innerHTML = random2.next().value;
+                    }
+                  }else{
+                    cell1.innerHTML = random1.next().value;
+                    cell2.innerHTML = random2.next().value;
+                  }
+                  cell3.innerHTML = counter;
+                  counter++;
+                  n++;
+
+                    reloadbutton.style.display="block";
+            }
 
 
+            var xd=0;
+              setInterval(function(){
+                if(xd<sum/2){
+                  tableDisplay();
 
-            setTimeout(function(){
-
-
-              var row = table.insertRow(0);
-              var cell1 = row.insertCell(0);
-              var cell2 = row.insertCell(1);
-              if(firstplayerpick.length==0){
-                cell1.innerHTML = random2.next().value;
-                if(secplayerpick.length==0){
-
-                  cell2.innerHTML = "PARA NR.1";
-                }else{
-
-                  cell2.innerHTML = random2.next().value;
                 }
-              }else{
+                xd++;
+              },1000);
 
-                cell1.innerHTML = random1.next().value;
-                cell2.innerHTML = random2.next().value;
-              }
-
-            },1000);
-          }
             reloadbutton.style.display="block";
 
             reloadbutton.onclick = function(){
               location.reload();
             }
             window.scrollTo(0,0);
-
-
-
         }
-
-
   }
