@@ -20,7 +20,7 @@ var players =["MAREK.M",
               "JANUSZ.M",
               "DAREK.P",
               "KONRAD.W",
-              "KAROL",
+              "KAROL.B",
               "ANDRZEJ.Z"
               ];
 
