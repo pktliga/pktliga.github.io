@@ -20,7 +20,7 @@ var players =["MAREK.M",
               "JANUSZ.M",
               "DAREK.P",
               "KONRAD.W",
-              "KAROL",
+              "KAROL.B",
               "ANDRZEJ.Z"
               ];
 
@@ -101,6 +101,7 @@ var players =["MAREK.M",
           var n = 0;
             function tableDisplay(){
 
+
                   var row = table.insertRow(0);
                   var cell2 = row.insertCell(0);
                   var cell3 = row.insertCell(0);
@@ -113,12 +114,23 @@ var players =["MAREK.M",
                     }else{
 
                       cell2.innerHTML = random2.next().value;
+                      if(counter%2==0){
+                        cell2.style.backgroundColor="#6aa84f";
+                        cell1.style.backgroundColor="#6aa84f";
+                        cell3.style.backgroundColor="#6aa84f";
+
+                      }else{
+                        cell2.style.backgroundColor="yellow";
+                        cell1.style.backgroundColor="yellow";
+                        cell3.style.backgroundColor="yellow";
+
+                      }
+
 
                     }
                   }else{
                     cell1.innerHTML = random1.next().value;
                     cell2.innerHTML = random2.next().value;
-
                     if(counter%2==0){
                       cell2.style.backgroundColor="#6aa84f";
                       cell1.style.backgroundColor="#6aa84f";
