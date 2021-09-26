@@ -116,34 +116,34 @@ var players =["MAREK.M",
                     }else{
 
                       cell2.innerHTML = random2.next().value;
-                      if(counter%2==0){
-                        cell2.style.backgroundColor="#6aa84f";
-                        cell1.style.backgroundColor="#6aa84f";
-                        cell3.style.backgroundColor="#6aa84f";
+                      /*if(counter%2==0){
+                        cell2.style.backgroundColor="#ffffff";
+                        cell1.style.backgroundColor="#ffffff";
+                        cell3.style.backgroundColor="#ffffff";
 
                       }else{
                         cell2.style.backgroundColor="yellow";
                         cell1.style.backgroundColor="yellow";
                         cell3.style.backgroundColor="yellow";
 
-                      }
+                      }*/
 
 
                     }
                   }else{
                     cell1.innerHTML = random1.next().value;
                     cell2.innerHTML = random2.next().value;
-                    if(counter%2==0){
-                      cell2.style.backgroundColor="#6aa84f";
-                      cell1.style.backgroundColor="#6aa84f";
-                      cell3.style.backgroundColor="#6aa84f";
+                    /*if(counter%2==0){
+                      cell2.style.backgroundColor="#ffffff";
+                      cell1.style.backgroundColor="#ffffff";
+                      cell3.style.backgroundColor="#ffffff";
 
                     }else{
                       cell2.style.backgroundColor="yellow";
                       cell1.style.backgroundColor="yellow";
                       cell3.style.backgroundColor="yellow";
 
-                    }
+                    }*/
                   }
                   cell3.innerHTML = counter;
                   counter++;
