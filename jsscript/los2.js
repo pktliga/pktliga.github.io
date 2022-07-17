@@ -30,8 +30,8 @@ var players =["MAREK.M",
               "ŁUKASZ.S",
               "MARTYNA.Z",
               "SŁAWEK.Z",
-              "KINGA",
-              "PRZEMEK"
+              "KINGA.P",
+              "PRZEMEK.P"
               ];
 
   players.sort();
