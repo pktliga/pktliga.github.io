@@ -35,6 +35,7 @@ var players =["MAREK.M",
               "PIOTR.Z",
               "EWA.B",
               "KRZYSZTOF.C"
+              "WIESŁAW.T"
               ];
 
   players.sort();
