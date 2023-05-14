@@ -34,7 +34,7 @@ var players =["MAREK.M",
               "PRZEMEK.B",
               "PIOTR.Z",
               "EWA.B",
-              "KRZYSZTOF.C"
+              "KRZYSZTOF.C",
               "WIESŁAW.T"
               ];
 
