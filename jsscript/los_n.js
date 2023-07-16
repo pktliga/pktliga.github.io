@@ -22,30 +22,9 @@ var players =["MAREK.M",
               "KONRAD.W",
               "KAROL.B",
               "ANDRZEJ.Z",
-              "SEBASTIAN.P",
-              "KACPER.P",
-              "ADA.P",
-              "KRYSTIAN.M",
-              "ALAN.Ł",
-              "ŁUKASZ.S",
-              "MARTYNA.Z",
-              "SŁAWEK.Z",
-              "KINGA.B",
-              "PRZEMEK.B",
-              "PIOTR.Z",
-              "EWA.B",
-              "KRZYSZTOF.C",
               "WIESŁAW.T",
-              "SYLWIA W",
-              "BOŻENA D",
-              "MAGDA J",
-              "WILL",
-              "ELLIE",
-              "OLLIE",
-              "PAUL",
-              "CEDRIC",
               "BOGUS.B",
-              "IWONA,K"
+              "IWONA.K"
               ];
 
   players.sort();
@@ -125,7 +104,6 @@ var players =["MAREK.M",
           var n = 0;
             function tableDisplay(){
 
-
                   var row = table.insertRow(0);
                   var cell2 = row.insertCell(0);
                   var cell3 = row.insertCell(0);
@@ -134,38 +112,13 @@ var players =["MAREK.M",
                     cell1.innerHTML = random2.next().value;
                     if(secplayerpick.length==0){
                       cell2.innerHTML = "PARA NR.1";
-
                     }else{
 
                       cell2.innerHTML = random2.next().value;
-                      /*if(counter%2==0){
-                        cell2.style.backgroundColor="#ffffff";
-                        cell1.style.backgroundColor="#ffffff";
-                        cell3.style.backgroundColor="#ffffff";
-
-                      }else{
-                        cell2.style.backgroundColor="yellow";
-                        cell1.style.backgroundColor="yellow";
-                        cell3.style.backgroundColor="yellow";
-
-                      }*/
-
-
                     }
                   }else{
                     cell1.innerHTML = random1.next().value;
                     cell2.innerHTML = random2.next().value;
-                    /*if(counter%2==0){
-                      cell2.style.backgroundColor="#ffffff";
-                      cell1.style.backgroundColor="#ffffff";
-                      cell3.style.backgroundColor="#ffffff";
-
-                    }else{
-                      cell2.style.backgroundColor="yellow";
-                      cell1.style.backgroundColor="yellow";
-                      cell3.style.backgroundColor="yellow";
-
-                    }*/
                   }
                   cell3.innerHTML = counter;
                   counter++;
