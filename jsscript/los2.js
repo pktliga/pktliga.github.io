@@ -52,7 +52,15 @@ var players =["MAREK.M",
               "PAWEŁ.T",
               "WILOETTA.O",
               "KORALIA.G",
-              "JOLA.B"
+              "JOLA.B",
+              "Darek.K",
+              "Agnieszka.P",
+              "Renata.Cz",
+              "Grażyna.R",
+              "Aurelia.M",
+              "Jędrzej.F",
+              "Asia.G"
+
               ];
 
   players.sort();
