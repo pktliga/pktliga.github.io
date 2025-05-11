@@ -65,7 +65,14 @@ var players =["MAREK.M",
                 "Martyna.R",
               "Dorota.W",
               "IGA.P",
-              "MAKS.P"
+              "MAKS.P",
+              "Anna.P",
+              "Tomasz.C",
+              "Witold.P",
+              "Kasia.M",
+              "Renata.W",
+              "Agnieszka.K"
+              
               ];
 
   players.sort();
