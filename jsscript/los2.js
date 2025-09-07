@@ -77,7 +77,9 @@ var players =["MAREK.M",
               "Magda.G",
               "Jerzy.J",
               "Michał.B",
-              "Ania.B"
+              "Ania.B",
+              "Małgosia.M",
+              "Małgosia.P"
               
               ];
 
