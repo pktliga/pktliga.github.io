@@ -1,4 +1,4 @@
-2var players =["MAREK.M",
+var players =["MAREK.M",
               "ADAM.C",
               "HUBERT.K",
               "SŁAWEK.M",
