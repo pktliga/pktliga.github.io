@@ -80,7 +80,11 @@ var players =["MAREK.M",
               "Ania.B",
               "Małgosia.M",
               "Małgosia.P",
-               "Piotr.M"
+               "Piotr.M",
+              "Carlos",
+              "Safer",
+              "Sophia",
+              "Jerzy.s"
               
               ];
 
