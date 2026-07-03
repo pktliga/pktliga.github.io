@@ -90,6 +90,8 @@ var players =["MAREK.M",
               "LIDKA.S",
               "JOLA.K",
               "ANIA.G",
+              "JOLA.K",
+              "ZANETA.L"
               ];
 
   players.sort();
