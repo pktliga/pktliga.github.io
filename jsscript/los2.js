@@ -95,7 +95,8 @@ var players =["MAREK.M",
               "ADAM.G",
               "JARKA J",
               "ASIA.K",
-              "MONIKA.K"
+              "MONIKA.K",
+              "SEBASTIAN.G"
               ];
 
   players.sort();
